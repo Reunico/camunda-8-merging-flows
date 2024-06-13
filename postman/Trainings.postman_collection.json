@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "df16f1b7-4450-4b72-9b7d-b2de1802b6f9",
+		"name": "Trainings",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6650009"
+	},
+	"item": [
+		{
+			"name": "Send Message",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

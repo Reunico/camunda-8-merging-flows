@@ -9,8 +9,22 @@
 		{
 			"name": "Send Message",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/message/Message_assesmentFinished/123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"message",
+						"Message_assesmentFinished",
+						"123"
+					]
+				}
 			},
 			"response": []
 		}

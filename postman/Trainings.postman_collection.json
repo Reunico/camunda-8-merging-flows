@@ -7,7 +7,29 @@
 	},
 	"item": [
 		{
-			"name": "Send Message",
+			"name": "2_Message_assesmentFinished",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/message/Message_assesmentFinished/123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"message",
+						"Message_assesmentFinished",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1_Request for Assessment",
 			"request": {
 				"method": "POST",
 				"header": [],
